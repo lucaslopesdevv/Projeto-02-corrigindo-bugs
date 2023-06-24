@@ -21,7 +21,7 @@ body {
   padding-top: 65px;
 }
 
-nav {
+.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -69,12 +69,12 @@ ul {
   font-family: "Mulish", sans-serif;
 }
 
-h1 span {
+.text-section .text-container h1 span {
   color: #89c5cc;
   font-weight: 700;
 }
 
-section p {
+.text-section .text-container p {
   font-size: 14px;
   line-height: 28px;
   color: #7d7987;
@@ -82,7 +82,7 @@ section p {
   margin: 40px 0;
 }
 
-button {
+.button-wpp {
   color: white;
   text-transform: uppercase;
   font-family: "Open Sans", sans-serif;
@@ -97,11 +97,11 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.button-wpp:hover {
   background: #4ea788;
 }
 
-footer {
+.footer {
   font-size: 14px;
   line-height: 28px;
 
@@ -110,7 +110,7 @@ footer {
   margin-top: 80px;
 }
 
-footer a {
+.footer a {
   font-weight: bold;
 }
 
